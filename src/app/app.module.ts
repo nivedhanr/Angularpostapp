@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddpostComponent } from './addpost/addpost.component';
+import { ViewpostComponent } from './viewpost/viewpost.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddpostComponent
+    AddpostComponent,
+    ViewpostComponent
   ],
   imports: [
     BrowserModule,
