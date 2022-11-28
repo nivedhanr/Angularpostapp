@@ -7,6 +7,7 @@ import { AddpostComponent } from './addpost/addpost.component';
 import { ViewpostComponent } from './viewpost/viewpost.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 const myRoute:Routes=[
   {
     path:"",
@@ -27,7 +28,8 @@ const myRoute:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
